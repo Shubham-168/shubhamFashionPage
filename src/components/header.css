@@ -1,0 +1,24 @@
+.nav-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.search{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-items{
+      display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu-icon{
+      display: none;
+    }
+}
+
